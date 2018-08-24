@@ -1,0 +1,15 @@
+SVN and GIT
+
+Work flow different as follows : 
+
+An SVN workflow looks like this:
+The trunk directory represents the latest stable release of a project.
+Active feature work is developed within subdirectories under branches.
+When a feature is finished, the feature directory is merged into trunk and removed.
+
+A Git workflow looks like this:
+The latest stable release is contained within the master branch.
+Active feature work is developed in separate branches.
+When a feature is finished, the feature branch is merged into master and deleted.
+
+SVN is configured to assume that the history of a project never changes. Git allows you to modify previous commits and changes using tools like git rebase.
